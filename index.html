@@ -1,21 +1,21 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta charset="UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
   <title>Ceeco Chatbot</title>
 </head>
-<body>
+<body style="margin:0;">
   <div id="root"></div>
 
-  <!-- Load React & ReactDOM from CDN -->
-  <script src="https://unpkg.com/react@18/umd/react.production.min.js"></script>
-  <script src="https://unpkg.com/react-dom@18/umd/react-dom.production.min.js"></script>
+  <!-- React and ReactDOM -->
+  <script src="https://unpkg.com/react@18/umd/react.development.js"></script>
+  <script src="https://unpkg.com/react-dom@18/umd/react-dom.development.js"></script>
 
-  <!-- Load Babel for JSX -->
+  <!-- Babel so JSX works in browser (for quick version) -->
   <script src="https://unpkg.com/@babel/standalone/babel.min.js"></script>
 
-  <!-- Your Chatbot Code -->
-  <script type="text/babel" src="./index.js"></script>
+  <!-- Your chatbot code -->
+  <script type="text/babel" src="index.js"></script>
 </body>
 </html>
